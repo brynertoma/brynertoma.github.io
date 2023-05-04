@@ -1,4 +1,17 @@
-img {
+img:not(#bg img) {
     border: 8px solid #3b4448;
     box-shadow: 0 0 6px black;
+}
+
+#bg {
+    transform: scale(2);
+}
+
+#points {
+    margin: 40px;
+}
+
+#points blockquote p {
+    margin: 2px 0;
+
 }
