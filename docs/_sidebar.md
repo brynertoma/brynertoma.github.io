@@ -1,6 +1,6 @@
 - [Home]()
   - [About](home.md#awesome-event-system)
-  - [AES on Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/product/awesome-ability-system)
+  - [AES on Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/product/awesome-event-system)
 
 - Terminology
   - [Event Manager](terms/eventmanager.md)
