@@ -15,4 +15,6 @@ Also since arrays are stored sequentially in memory, this makes our data extreme
 
 As a ridiculous example, if you have `INT64` size of events in a single list (9,223,372,036,854,775,807 events), our **max** number of iterations to find any event is 64 iterations. 
 
-?> **NOTE** Please note that this is a very unrealistic scenario but it was purely to demonstrate the power of binary searches. This also assumes your data set is of a decent size since a regular search from start to end may perform better in cases where your lists are small. \n\nAn event system is more than likely going to be keeping track of a good amount of events and internal testing with actual gameplay concluded that sorted binary searches performed the best compared to other methods.
+?> **NOTE**: Please note that this is a very unrealistic scenario but it was purely to demonstrate the power of binary searches. This also assumes your data set is of a decent size since a regular search from start to end may perform better in cases where your lists are small.
+
+?> **INFO**: An event system is more than likely going to be keeping track of a good amount of events and internal testing with actual gameplay concluded that sorted binary searches performed the best compared to other methods.
