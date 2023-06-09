@@ -2,7 +2,7 @@
 
 ?> **NOTE**: You will never need to use this node since the custom AES nodes will be talking to the `AES Manager` behind the scenes. This is just for educational purposes only. 
 
-The `AES Event Manager` is a subsystem `World Subsystem` that is created on the `Server` and the `Client`.
+The `AES Event Manager` is a `World Subsystem` that is created on the `Server` and the `Client`.
 
 It's duty is to initalize all `AES Event` assets in the project and build the appropriate lists required to make the system work. This happens on intialization as soon as the `Asset Manager` has completed its initial asset scan.
 
