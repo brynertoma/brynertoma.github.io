@@ -14,7 +14,7 @@ The `Generate Broadcast Event` will execute any delegates that were registered b
 - Register for **[Type Event](/terms/register.md#type-registrations)**
 - Reigster for **[Focus Event](/terms/register.md#focus-registrations)**
 
-![image](../../img/Broadcast.png)
+![image](../../img/terminology/Broadcast.png)
 
 When an event is `Broadcasted`, the `AES Event Manager` will run through all the registrations for `Broadcasts`, `Type` and `Focus` events since any of the following criteria could be met:
 
@@ -29,6 +29,6 @@ When an event is `Broadcasted`, the `AES Event Manager` will run through all the
 
 The `Generate Whisper Event` will execute any delegates that were registered by using the Register for [Whisper Event](/terms/register.md).
 
-![image](../../img/Whisper.png)
+![image](../../img/terminology/Whisper.png)
 
 ?> **NOTE**: If the object with a matching ID is not listening for whisper events, the delegate on that target object will not be called.

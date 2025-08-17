@@ -1,4 +1,4 @@
-![image](../../img/AESManager.png)
+![image](../../img/terminology/AESManager.png)
 
 ?> **NOTE**: You will never need to use this node since the custom AES nodes will be talking to the `AES Manager` behind the scenes. This is just for educational purposes only. 
 

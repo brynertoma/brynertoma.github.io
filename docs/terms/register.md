@@ -1,7 +1,7 @@
 
 Register nodes are `static functions` that allow an object to register for any type of event from anywhere at any time.
 
-![image](../../img/Registers.png)
+![image](../../img/terminology/Registers.png)
 
 The minimum requirements to register for any type of events include the following:
 
@@ -32,8 +32,8 @@ Additionally, `Focus` and `Type` registrations require more information in order
 
 All registration types have a matching Unregister node as well with the exact same requirements as inputs.
 
-![image](../../img/Unregisters.png)
+![image](../../img/terminology/Unregisters.png)
 
 There are matching `Unregister from All` nodes as well that will force the subsystem to remove the passed in `Identity` from all events that it has registered for since the `Identity` was created. You can re-register for the same events after you've unregistered.
 
-![image](../../img/UnregisterAlls.png)
+![image](../../img/terminology/UnregisterAlls.png)
